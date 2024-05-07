@@ -225,22 +225,28 @@ const exercicio8 = () => {
 // 5- apagar resposta
 //----------------------------------------------------------
 
-//exercicio21 
-// 1- solicitar frase
-// 2- analisar frase e espaços em branco
-// 3- juntar frase 
-// 4- remover espaços em branco 
-// 5- apresentar resultado 
-// 6- limpar resultado 
-//-----------------------------------------------------
+const exercicio21 = () => {
+let dados = obterDados("errorResult");
+let frases = document.getElementById("frase").value;
+frases = frase.trim();
+dados.error.style.dislay = "none";
+dados.result.style.display
+dados.result.innerHTML = ""
 
-//exercico22
-// 1- solicitar numero 
-// 2- separar os numeros entre 0 e o numero escolhido
-// 3- somar os digitos
-// 4- se for > que 100 mostrar o resultado
-// 5- se for < que 100 não mostrar o resultado 
-// 6- limpar resultado 
+if (frase.lenght > 1) {
+  dados.result.innerHTML = frase
+}
+}
+
+ //-----------------------------------------------------
+
+const exercicio22 = () => {
+  let num1 = document.getElementById("num").value
+  let resultado = document.getElementeById("resultado");
+  let error = document.getElementeById("erro");
+  error.innerText = "";
+  resultado.innerText = "";
+}
 //-----------------------------------------------------------
 
 //exercicio23
